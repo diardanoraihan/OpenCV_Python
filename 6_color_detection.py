@@ -58,6 +58,6 @@ Pro Tips
 In order to get the upper and lower bound of a specific color, you can go 
 to HSV color picker and pick a light and darker color of your interest.
 >> BGR_color = np.array([[[255, 0, 0]]], dtype=np.uint8)
->> mask_color = cv2.cvtColor(BGR_color, cv2.COLOR_BGR2HSV)
+>> HSV_color = cv2.cvtColor(BGR_color, cv2.COLOR_BGR2HSV)
 >> HSV_color[0][0] --> array([120, 255, 255]) --> the upper_blue
 """
