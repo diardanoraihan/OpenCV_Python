@@ -2,6 +2,8 @@
 We will cover image manipulation, such as:
 - how the image being represented in the computer
 - how the image actually works
+- how to change pixel colors
+- how to copy and paste parts of the image
 - etc.
 '''
 
