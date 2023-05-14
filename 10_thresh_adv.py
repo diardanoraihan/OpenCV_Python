@@ -1,4 +1,6 @@
 '''
+Image Kernels: https://setosa.io/ev/image-kernels/ 
+
 One of the downside of the simple thresholding technique is that
 we have to set manually the value of the threshold.
 In some cases, this might work, in some advance cases, this might not work especially
@@ -9,7 +11,7 @@ by itself.
 '''
 import cv2 as cv
 
-img = cv.imread('assets/person_fixing_street_light.jpeg')
+img = cv.imread('assets/hand_grabbed_paddy.jpeg')
 cv.imshow('Image', img)
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
